@@ -46,7 +46,9 @@ Sede San Carlos
     - [Reglas de negocio](#reglas-de-negocio)
     - [Criterios de comprobación](#criterios-de-comprobación)
     - [Ciclo de vida del proyecto](#ciclo-de-vida-del-proyecto)
+    - [Interacción entre los grupos de procesos](#interacción-entre-los-grupos-de-procesos)
     - [Roles y responsabilidades](#roles-y-responsabilidades)
+    - [Gobernanza y control de cambios](#gobernanza-y-control-de-cambios)
     - [Organización de las semanas 3 y 4](#organización-de-las-semanas-3-y-4)
     - [Product Backlog inicial](#product-backlog-inicial)
     - [Sprint Backlog · Sprint 2 (semanas 3 y 4)](#sprint-backlog--sprint-2-semanas-3-y-4)
@@ -317,6 +319,20 @@ El ciclo de vida se divide en las siguientes etapas:
 5. **Seguimiento y control:** revisión del avance, los riesgos, los cambios y la calidad de los resultados.
 6. **Cierre:** evaluación del proyecto, presentación de resultados y registro de las lecciones aprendidas.
 
+#### Interacción entre los grupos de procesos
+
+Aunque los procesos aparecen separados, durante el proyecto se van relacionando. Lo que se obtiene en una etapa sirve para trabajar en la siguiente y, si aparece algún cambio, puede ser necesario revisar lo que ya se había planeado.
+
+| Proceso | Qué se obtiene | Para qué se utiliza |
+| --- | --- | --- |
+| Inicio | El problema, los objetivos y los interesados. | Ayuda a decidir el alcance y las prioridades. |
+| Planificación | El alcance, las reglas y los backlogs. | Sirve como guía para el trabajo del Sprint. |
+| Ejecución o simulación | Los documentos, modelos o avances del proyecto. | Se revisan para comprobar que respondan a lo planeado. |
+| Seguimiento y control | El estado de las actividades y los cambios encontrados. | Permite corregir el plan y ordenar nuevamente el Product Backlog. |
+| Cierre | El resultado revisado y las lecciones aprendidas. | Ayuda a preparar el siguiente Sprint. |
+
+Por ejemplo, si al revisar el proyecto se considera que la consulta del saldo es más importante que los reportes, se cambia el orden del Product Backlog y se toma en cuenta esa prioridad para el Sprint siguiente. El seguimiento y control se realiza mientras se trabaja, no solamente al final.
+
 #### Roles y responsabilidades
 
 | Participante | Responsabilidades principales |
@@ -328,6 +344,19 @@ El ciclo de vida se divide en las siguientes etapas:
 | Profesor | Revisar los entregables, orientar el trabajo académico y brindar retroalimentación. |
 
 La distribución interna podrá ajustarse de común acuerdo cuando la cantidad o dificultad de las actividades lo requiera. Aunque exista una división inicial, ambos integrantes son responsables de revisar y comprender el resultado completo.
+
+#### Gobernanza y control de cambios
+
+Para evitar cambios sin revisar, se definió de forma general quién puede tomar cada decisión.
+
+| Tipo de decisión | Quién puede proponerla | Quién la revisa |
+| --- | --- | --- |
+| Prioridad de una necesidad | El dueño, los usuarios o el equipo | El dueño o administrador del supermercado |
+| Forma de organizar la solución | El equipo | Cristopher y Miguel |
+| Requisitos de la entrega académica | El equipo o el profesor | El profesor |
+| Cambio en el alcance o en una regla | Cualquiera de los interesados | El dueño y el equipo, según el tipo de cambio |
+
+Cuando aparezca un cambio, primero se anotará qué se quiere modificar y por qué. Después se revisará si afecta el alcance, el tiempo o alguna regla del sistema. Si se acepta, se actualizarán el backlog y las demás secciones relacionadas. Los cambios hechos en los documentos también quedarán registrados en Git.
 
 #### Organización de las semanas 3 y 4
 
@@ -344,26 +373,43 @@ El Product Backlog reúne las funcionalidades que se espera desarrollar en el si
 
 La prioridad inicial se concentra en la administración de empresas, clientes, cuentas de crédito, compras y pagos, ya que estas funcionalidades representan el proceso principal del sistema.
 
-| Código | Historia de usuario | Necesidades relacionadas | Prioridad |
-| --- | --- | --- | :---: |
-| HU-01 | Como administrador, quiero registrar empresas con convenio para mantener organizada su información. | N02 | Alta |
-| HU-02 | Como administrador, quiero registrar clientes y asociarlos con su empresa para identificar a quién pertenece cada cuenta. | N03 | Alta |
-| HU-03 | Como administrador, quiero crear cuentas de crédito y establecer sus límites para controlar el monto autorizado. | N04 | Alta |
-| HU-04 | Como cajero, quiero consultar el saldo disponible de un cliente para comprobar si puede realizar una compra. | N06, N07 | Alta |
-| HU-05 | Como cajero, quiero registrar compras a crédito para mantener actualizada la deuda del cliente. | N08 | Alta |
-| HU-06 | Como usuario autorizado, quiero registrar pagos o abonos para actualizar los saldos de las cuentas. | N09 | Alta |
-| HU-07 | Como administrador, quiero gestionar los permisos de los usuarios para controlar el acceso a la información. | N01, N15 | Alta |
-| HU-08 | Como usuario autorizado, quiero consultar el historial de movimientos para revisar las compras y pagos realizados. | N12, N13 | Media |
-| HU-09 | Como administrador, quiero consultar reportes por cliente y empresa para facilitar el seguimiento de los créditos. | N10, N11, N14 | Media |
-| HU-10 | Como administrador, quiero gestionar los estados de las cuentas para suspenderlas o cerrarlas cuando sea necesario. | N05 | Media |
+| Orden | Código | Historia de usuario | Necesidades relacionadas | Prioridad |
+| ---: | --- | --- | --- | :---: |
+| 1 | HU-01 | Como administrador, quiero registrar empresas con convenio para mantener organizada su información. | N02 | Alta |
+| 2 | HU-02 | Como administrador, quiero registrar clientes y asociarlos con su empresa para identificar a quién pertenece cada cuenta. | N03 | Alta |
+| 3 | HU-03 | Como administrador, quiero crear cuentas de crédito y establecer sus límites para controlar el monto autorizado. | N04 | Alta |
+| 4 | HU-04 | Como cajero, quiero consultar el saldo disponible de un cliente para comprobar si puede realizar una compra. | N06, N07 | Alta |
+| 5 | HU-05 | Como cajero, quiero registrar compras a crédito para mantener actualizada la deuda del cliente. | N08 | Alta |
+| 6 | HU-06 | Como usuario autorizado, quiero registrar pagos o abonos para actualizar los saldos de las cuentas. | N09 | Alta |
+| 7 | HU-07 | Como administrador, quiero gestionar los permisos de los usuarios para controlar el acceso a la información. | N01, N15 | Alta |
+| 8 | HU-08 | Como usuario autorizado, quiero consultar el historial de movimientos para revisar las compras y pagos realizados. | N12, N13 | Media |
+| 9 | HU-10 | Como administrador, quiero gestionar los estados de las cuentas para suspenderlas o cerrarlas cuando sea necesario. | N05 | Media |
+| 10 | HU-09 | Como administrador, quiero consultar reportes por cliente y empresa para facilitar el seguimiento de los créditos. | N10, N11, N14 | Media |
 
 > Las prioridades son una propuesta inicial basada en el alcance documentado; todavía no han sido validadas con el supermercado.
+
+El Product Backlog no se considera definitivo. Si aparece información nueva, el equipo podrá aclarar una historia, dividirla, agregar condiciones para comprobarla o cambiarla de posición. Si el cambio afecta el funcionamiento del negocio, deberá revisarse con el dueño o administrador.
 
 #### Sprint Backlog · Sprint 2 (semanas 3 y 4)
 
 **Sprint Goal:** definir y organizar las funcionalidades, procesos y reglas principales del sistema de gestión de deudas, estableciendo una base de planificación para las siguientes etapas del proyecto.
 
 Durante este Sprint se trabajará en la documentación y organización de los requisitos del sistema. No se contempla todavía la programación de las funcionalidades, sino la definición de cómo deberán funcionar. Por lo tanto, el resultado del Sprint es documentación de planificación, no funcionalidades ya programadas.
+
+**Ítems del Product Backlog seleccionados para el Sprint**
+
+| Orden en el Sprint | Ítem seleccionado | Motivo de selección | Resultado del Sprint |
+| ---: | --- | --- | --- |
+| 1 | HU-01 · Registrar empresas | Primero se necesitan las empresas para crear los convenios. | Dejar definido cómo se registrará. |
+| 2 | HU-02 · Registrar clientes | Los clientes deben quedar relacionados con una empresa. | Dejar definido el registro de clientes. |
+| 3 | HU-03 · Crear cuentas y límites | La cuenta permite controlar el crédito del cliente. | Definir la creación de la cuenta y sus reglas. |
+| 4 | HU-04 · Consultar saldo disponible | El cajero necesita saber si se puede realizar la compra. | Definir la consulta y validación del saldo. |
+| 5 | HU-05 · Registrar compras | Es una de las operaciones principales del sistema. | Definir el flujo y las reglas de la compra. |
+| 6 | HU-06 · Registrar pagos o abonos | Permite disminuir la deuda y recuperar crédito. | Definir el flujo y las reglas del abono. |
+
+Las historias HU-07 a HU-10 quedan pendientes para revisarlas o seleccionarlas en otro Sprint. En este Sprint el trabajo se limita a dejar documentadas las historias seleccionadas; todavía no se programarán.
+
+**Plan de trabajo del Sprint**
 
 | Código | Actividad seleccionada | Resultado esperado | Responsable propuesto |
 | --- | --- | --- | --- |
@@ -378,7 +424,7 @@ Durante este Sprint se trabajará en la documentación y organización de los re
 
 #### Mecanismo de seguimiento del Sprint
 
-**GitHub Projects** es la herramienta propuesta para organizar las actividades del Sprint 2 (SP2-01 a SP2-08). Se plantea un tablero con tres estados:
+El seguimiento del Sprint 2 se registra en el archivo versionado [Seguimiento del Sprint 2](docs/seguimiento-sprint-2.md), utilizando tres estados:
 
 | Estado | Descripción |
 | --- | --- |
@@ -386,11 +432,11 @@ Durante este Sprint se trabajará en la documentación y organización de los re
 | En proceso | Actividades en las que se está trabajando actualmente. |
 | Terminado | Actividades que han sido completadas y revisadas por el equipo. |
 
-Se propone que Cristopher y Miguel realicen revisiones breves del avance durante los días de trabajo. En ellas se identificaría qué actividades se han completado, cuáles continúan pendientes y si existe algún problema que pueda afectar el cumplimiento del Sprint.
+Como el equipo solamente tiene dos integrantes, no se realizarán reuniones diarias formales. Cuando alguno trabaje en una actividad, actualizará su estado en el registro. Los commits permitirán revisar los cambios que se han realizado.
 
-Al finalizar las dos semanas, se propone que el equipo revise los resultados obtenidos y determine si es necesario realizar ajustes antes de comenzar el siguiente Sprint.
+Antes de entregar, ambos integrantes revisarán que las actividades estén completas y que no existan diferencias entre el README y el documento del Sprint.
 
-> Este mecanismo es únicamente una propuesta de seguimiento. El tablero en GitHub Projects todavía no ha sido creado y aún no se han realizado reuniones o revisiones de seguimiento.
+Los estados Pendiente, En proceso y Terminado cumplen la misma función del tablero explicado en clase, pero se adaptan mejor a la forma de trabajo del equipo.
 
 #### Backlog técnico de referencia
 
