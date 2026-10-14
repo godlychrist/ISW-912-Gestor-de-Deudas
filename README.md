@@ -21,60 +21,67 @@ Sede San Carlos
 
 ## Contenido
 
-- [Semana 1 · Definición del proyecto](#semana-1--definición-del-proyecto)
-  - [Problema](#problema)
-  - [Proyecto propuesto](#proyecto-propuesto)
-  - [Valor esperado](#valor-esperado)
-  - [Objetivo general](#objetivo-general)
-  - [Objetivos específicos](#objetivos-específicos)
-- [Semana 2 · Taller: interesados de nuestro proyecto](#semana-2--taller-interesados-de-nuestro-proyecto)
-  - [Contexto y restricciones del proyecto](#contexto-y-restricciones-del-proyecto)
-  - [Registro de interesados](#registro-de-interesados)
-  - [Justificación de poder e interés](#justificación-de-poder-e-interés)
-  - [Mapa Poder–Interés](#mapa-poderinterés)
-  - [Tres interesados críticos y estrategia de involucramiento](#tres-interesados-críticos-y-estrategia-de-involucramiento)
-  - [Preguntas de análisis](#preguntas-de-análisis)
-  - [Enfoque de gestión del proyecto](#enfoque-de-gestión-del-proyecto)
-- [Sprint 2 · Semanas 3 y 4: planeamiento del proyecto](#sprint-2--semanas-3-y-4-planeamiento-del-proyecto)
-  - [Propósito del Sprint](#propósito-del-sprint)
-  - [Alcance del sistema](#alcance-del-sistema)
-  - [Necesidades de los usuarios](#necesidades-de-los-usuarios)
-  - [Flujos principales](#flujos-principales)
-  - [Definición funcional de la solución](#definición-funcional-de-la-solución)
-  - [Reglas de negocio](#reglas-de-negocio)
-  - [Criterios de comprobación](#criterios-de-comprobación)
-  - [Ciclo de vida del proyecto](#ciclo-de-vida-del-proyecto)
-  - [Roles y responsabilidades](#roles-y-responsabilidades)
-  - [Organización de las semanas 3 y 4](#organización-de-las-semanas-3-y-4)
-  - [Backlog técnico de referencia](#backlog-técnico-de-referencia)
+- [Sprint 1 · Definición e interesados](#sprint-1--definición-e-interesados)
+  - [Semana 1 · Definición del proyecto](#semana-1--definición-del-proyecto)
+    - [Problema](#problema)
+    - [Proyecto propuesto](#proyecto-propuesto)
+    - [Valor esperado](#valor-esperado)
+    - [Objetivo general](#objetivo-general)
+    - [Objetivos específicos](#objetivos-específicos)
+  - [Semana 2 · Taller: interesados de nuestro proyecto](#semana-2--taller-interesados-de-nuestro-proyecto)
+    - [Contexto y restricciones del proyecto](#contexto-y-restricciones-del-proyecto)
+    - [Registro de interesados](#registro-de-interesados)
+    - [Justificación de poder e interés](#justificación-de-poder-e-interés)
+    - [Mapa Poder–Interés](#mapa-poderinterés)
+    - [Tres interesados críticos y estrategia de involucramiento](#tres-interesados-críticos-y-estrategia-de-involucramiento)
+    - [Preguntas de análisis](#preguntas-de-análisis)
+    - [Enfoque de gestión del proyecto](#enfoque-de-gestión-del-proyecto)
+- [Sprint 2 · Planeamiento del proyecto](#sprint-2--planeamiento-del-proyecto)
+  - [Semanas 3 y 4 · Planeamiento del proyecto](#semanas-3-y-4--planeamiento-del-proyecto)
+    - [Propósito del Sprint](#propósito-del-sprint)
+    - [Alcance del sistema](#alcance-del-sistema)
+    - [Necesidades de los usuarios](#necesidades-de-los-usuarios)
+    - [Flujos principales](#flujos-principales)
+    - [Definición funcional de la solución](#definición-funcional-de-la-solución)
+    - [Reglas de negocio](#reglas-de-negocio)
+    - [Criterios de comprobación](#criterios-de-comprobación)
+    - [Ciclo de vida del proyecto](#ciclo-de-vida-del-proyecto)
+    - [Roles y responsabilidades](#roles-y-responsabilidades)
+    - [Organización de las semanas 3 y 4](#organización-de-las-semanas-3-y-4)
+    - [Product Backlog inicial](#product-backlog-inicial)
+    - [Sprint Backlog · Sprint 2 (semanas 3 y 4)](#sprint-backlog--sprint-2-semanas-3-y-4)
+    - [Mecanismo de seguimiento del Sprint](#mecanismo-de-seguimiento-del-sprint)
+    - [Backlog técnico de referencia](#backlog-técnico-de-referencia)
 
 ---
 
-## Semana 1 · Definición del proyecto
+## Sprint 1 · Definición e interesados
 
-### Problema
+### Semana 1 · Definición del proyecto
+
+#### Problema
 
 El supermercado mantiene convenios con diferentes empresas para que sus empleados puedan realizar compras utilizando un monto de crédito autorizado. Actualmente, el control de compras, pagos y saldos se realiza mediante documentos físicos o registros dispersos.
 
 Esto puede provocar errores en los saldos, pérdida de información, dificultad para conocer cuánto crédito tiene disponible cada cliente y problemas al momento de realizar los cobros correspondientes a cada empresa.
 
-### Proyecto propuesto
+#### Proyecto propuesto
 
 Desarrollar una aplicación web que permita administrar los convenios de crédito entre el supermercado y las empresas, llevando un control centralizado de los clientes, sus cuentas y los movimientos realizados.
 
 El sistema permitirá registrar cargos por compras y abonos por pagos, actualizar automáticamente el saldo disponible de cada cliente y mantener un historial de las transacciones realizadas.
 
-### Valor esperado
+#### Valor esperado
 
 Mejorar el control de los convenios de crédito, reducir errores en el manejo de saldos y facilitar el seguimiento de las compras y pagos realizados por los empleados de cada empresa.
 
 Además, permitirá agilizar la atención, facilitar los procesos de cobro y mantener información organizada y confiable para el supermercado.
 
-### Objetivo general
+#### Objetivo general
 
 Desarrollar una aplicación web que permita la administración de manera centralizada, segura y eficiente de los convenios entre el supermercado y diferentes empresas, controlando las cuentas, compras, pagos y saldos de sus empleados para reducir errores y pérdidas económicas y mejorar la trazabilidad de las operaciones.
 
-### Objetivos específicos
+#### Objetivos específicos
 
 - Registrar las empresas y los clientes asociados a cada convenio.
 - Gestionar las cuentas de los clientes y mantener actualizado su saldo disponible.
@@ -83,9 +90,9 @@ Desarrollar una aplicación web que permita la administración de manera central
 
 ---
 
-## Semana 2 · Taller: interesados de nuestro proyecto
+### Semana 2 · Taller: interesados de nuestro proyecto
 
-### Contexto y restricciones del proyecto
+#### Contexto y restricciones del proyecto
 
 El proyecto se desarrolla para un supermercado que mantiene convenios de crédito con diferentes empresas. Actualmente, parte del control de compras, pagos y saldos se realiza mediante documentos físicos o registros dispersos, por lo que será necesario organizar esta información para incorporarla al sistema.
 
@@ -93,7 +100,7 @@ El proyecto será desarrollado dentro del periodo establecido para el curso, por
 
 Además, al tratarse de una aplicación web, se deberá considerar la infraestructura tecnológica necesaria, la protección de los datos de los clientes y la información proporcionada por el supermercado sobre el funcionamiento de los convenios.
 
-### Registro de interesados
+#### Registro de interesados
 
 | Interesado | Necesidad | Poder | Interés | Actitud | Estrategia | Responsable |
 | --- | --- | :---: | :---: | --- | --- | --- |
@@ -106,7 +113,7 @@ Además, al tratarse de una aplicación web, se deberá considerar la infraestru
 | Personal de contabilidad del supermercado | Contar con información correcta y trazable sobre cargos y pagos. | 3 | 4 | Neutral | Consultar necesidades relacionadas con movimientos y reportes. | Miguel |
 | Profesor del curso | Que el proyecto cumpla con los objetivos y entregables establecidos en el curso. | 4 | 3 | Neutral | Mantener informado mediante las entregas y aplicar la retroalimentación. | Ambos |
 
-### Justificación de poder e interés
+#### Justificación de poder e interés
 
 - **Dueño / administrador del supermercado — Poder 5 / Interés 5:** tiene la mayor capacidad para aprobar decisiones y definir las necesidades del negocio. Además, el sistema busca mejorar directamente el control de los convenios del supermercado.
 - **Cristopher y Miguel, equipo del proyecto — Poder 4 / Interés 5:** toman las decisiones relacionadas con el desarrollo y organización del proyecto, aunque las necesidades del negocio deben validarse con el supermercado.
@@ -117,13 +124,13 @@ Además, al tratarse de una aplicación web, se deberá considerar la infraestru
 - **Personal de contabilidad — Poder 3 / Interés 4:** necesita información correcta sobre cargos y pagos para realizar controles, aunque no toma las principales decisiones del proyecto.
 - **Profesor del curso — Poder 4 / Interés 3:** puede establecer requisitos y solicitar cambios relacionados con el proyecto académico, aunque no participa directamente en la operación del sistema.
 
-### Mapa Poder–Interés
+#### Mapa Poder–Interés
 
 Los valores de **1 a 3** se consideran nivel bajo y los valores de **4 a 5** nivel alto.
 
 ![Mapa Poder–Interés del proyecto](img/mapa-poder-interes.png)
 
-### Tres interesados críticos y estrategia de involucramiento
+#### Tres interesados críticos y estrategia de involucramiento
 
 | Interesado crítico | Cómo se involucrará | Momento o frecuencia propuesta | Responsable |
 | --- | --- | --- | --- |
@@ -131,29 +138,29 @@ Los valores de **1 a 3** se consideran nivel bajo y los valores de **4 a 5** niv
 | Empresas con convenio | Mediante consultas para conocer sus necesidades y validar la información relacionada con los créditos de sus empleados. | Durante la definición de requisitos y cuando existan funciones relacionadas con los convenios para revisar. | Miguel |
 | Cajeros del supermercado | Mediante consultas y pruebas para comprobar que el registro de compras a crédito sea sencillo y se adapte al proceso que realizan diariamente. | Durante la definición del proceso de compra y cuando exista una versión que puedan probar. | Cristopher |
 
-### Preguntas de análisis
+#### Preguntas de análisis
 
-#### ¿A quién debemos involucrar primero?
+##### ¿A quién debemos involucrar primero?
 
 Al dueño o administrador del supermercado, ya que conoce el funcionamiento del negocio y puede definir las necesidades principales que debe cubrir el sistema, además de que es quien lo necesita.
 
-#### ¿Quién puede bloquear una decisión?
+##### ¿Quién puede bloquear una decisión?
 
 El dueño o administrador del supermercado, debido a que tiene la autoridad para aprobar o rechazar decisiones relacionadas con el funcionamiento del sistema. Las empresas con convenio también pueden influir cuando una decisión afecte las condiciones acordadas con ellas.
 
-#### ¿Quién necesita información frecuente?
+##### ¿Quién necesita información frecuente?
 
 El dueño del supermercado y el equipo del proyecto, ya que participan directamente en la definición, desarrollo y validación del sistema. Los cajeros también deben mantenerse informados cuando se realicen cambios relacionados con el registro de compras a crédito.
 
-#### ¿Qué interesado estamos subestimando?
+##### ¿Qué interesado estamos subestimando?
 
 Los cajeros, porque, aunque no tienen un poder alto sobre las decisiones del proyecto, utilizan directamente el proceso de compras a crédito y pueden detectar problemas que no sean evidentes durante el desarrollo.
 
-#### ¿Qué conflicto de expectativas puede aparecer?
+##### ¿Qué conflicto de expectativas puede aparecer?
 
 Puede existir un conflicto entre el control que necesita el supermercado y la facilidad y rapidez que esperan los cajeros y clientes al utilizar el sistema. También podrían existir diferencias entre las necesidades del supermercado y las condiciones establecidas por las empresas con convenio.
 
-### Enfoque de gestión del proyecto
+#### Enfoque de gestión del proyecto
 
 Para este proyecto se propone un **enfoque híbrido**, ya que las funcionalidades principales están definidas desde el inicio, como el registro de empresas y clientes, el control de cuentas, los cargos y abonos y la consulta de saldos.
 
@@ -163,15 +170,17 @@ Por esta razón, se mantendrá una planificación general del proyecto, pero las
 
 ---
 
-## Sprint 2 · Semanas 3 y 4: planeamiento del proyecto
+## Sprint 2 · Planeamiento del proyecto
 
-### Propósito del Sprint
+### Semanas 3 y 4 · Planeamiento del proyecto
+
+#### Propósito del Sprint
 
 Durante las semanas 3 y 4 se realizará el planeamiento detallado del proyecto. En esta etapa se busca pasar de la idea general planteada durante las primeras semanas a una descripción más clara de lo que se espera del sistema, las personas que lo utilizarán y las condiciones que deberá respetar.
 
 Este Sprint no contempla todavía la programación de la aplicación. Su propósito es ordenar la información disponible y establecer una base común que permita tomar mejores decisiones en las etapas siguientes. Para ello se definirá el alcance, se identificarán las necesidades de los usuarios, se describirán los procesos principales y se organizará el trabajo de manera general.
 
-### Alcance del sistema
+#### Alcance del sistema
 
 El proyecto contempla una aplicación web para administrar los convenios de crédito que el supermercado mantiene con distintas empresas. La solución permitirá centralizar la información de las empresas, sus empleados, las cuentas de crédito y los movimientos realizados.
 
@@ -191,7 +200,7 @@ Dentro del alcance se considera:
 
 Para mantener el proyecto dentro del tiempo disponible, no se incluyen inicialmente la facturación electrónica, el control general del inventario, la contabilidad completa del supermercado, el procesamiento de pagos bancarios, una aplicación móvil ni la integración automática con sistemas externos. Estas posibilidades podrían valorarse en el futuro, pero no forman parte del alcance actual.
 
-### Necesidades de los usuarios
+#### Necesidades de los usuarios
 
 Las necesidades se organizaron tomando en cuenta a las personas que participan directamente en el manejo de los convenios. Estas necesidades expresan lo que cada usuario espera resolver; todavía no representan tareas de programación.
 
@@ -213,33 +222,33 @@ Las necesidades se organizaron tomando en cuenta a las personas que participan d
 | N14 | Administrador | Obtener reportes por cliente, empresa y periodo. |
 | N15 | Todos los usuarios autorizados | Consultar información actualizada y confiable de acuerdo con sus permisos. |
 
-### Flujos principales
+#### Flujos principales
 
-#### Registro de una empresa con convenio
+##### Registro de una empresa con convenio
 
 El administrador ingresa al apartado de empresas y comprueba que la empresa no se encuentre registrada. Luego incorpora sus datos y las condiciones generales del convenio. Una vez validada la información, la empresa queda disponible para asociar clientes y cuentas de crédito.
 
-#### Registro de un cliente y creación de su cuenta
+##### Registro de un cliente y creación de su cuenta
 
 Antes de registrar al cliente, se verifica si ya existe. Si es un cliente nuevo, se ingresan sus datos y se relaciona con la empresa para la que trabaja. Posteriormente se crea su cuenta, se establece el límite autorizado y se define su estado inicial.
 
-#### Compra de un cliente con cuenta
+##### Compra de un cliente con cuenta
 
 El cajero identifica al cliente y consulta su cuenta. El sistema debe mostrar si se encuentra activa y cuál es el saldo disponible. Después de ingresar el monto de la compra, se comprueba que exista crédito suficiente. Si la operación es válida, se registra el cargo y se actualizan los saldos.
 
-#### Atención de una persona sin cuenta activa
+##### Atención de una persona sin cuenta activa
 
 Si la persona no está registrada, no posee una cuenta o su cuenta se encuentra suspendida, la compra no podrá procesarse como crédito. El cajero deberá informarle la situación y la persona tendrá que utilizar otro medio de pago o solicitar la revisión de su cuenta al personal autorizado.
 
-#### Registro de un pago o abono
+##### Registro de un pago o abono
 
 El encargado de cobros localiza la cuenta y consulta su deuda. Luego registra el monto y la información del pago. Después de validar los datos, el sistema incorpora el abono al historial y actualiza tanto la deuda pendiente como el crédito disponible.
 
-#### Consulta del historial y de los reportes
+##### Consulta del historial y de los reportes
 
 El usuario autorizado selecciona un cliente o una empresa y, cuando sea necesario, establece un periodo. La consulta presenta los cargos, abonos y ajustes relacionados. Esta información sirve para revisar una cuenta, dar seguimiento a los cobros y preparar reportes.
 
-### Definición funcional de la solución
+#### Definición funcional de la solución
 
 La solución se organizó en las siguientes páginas principales. En este Sprint solamente se describe la función de cada una; su inclusión no significa que deban programarse todavía.
 
@@ -262,7 +271,7 @@ La solución se organizó en las siguientes páginas principales. En este Sprint
 | 15 | Reportes | Consultar información por cliente, empresa y periodo. |
 | 16 | Usuarios y permisos | Administrar el acceso y las responsabilidades de los usuarios. |
 
-### Reglas de negocio
+#### Reglas de negocio
 
 - **RB01.** Todo cliente con crédito debe estar asociado con una empresa que tenga un convenio activo.
 - **RB02.** Un cliente no puede tener dos cuentas activas asociadas con el mismo convenio.
@@ -280,7 +289,7 @@ La solución se organizó en las siguientes páginas principales. En este Sprint
 - **RB14.** Cada usuario solamente podrá realizar las acciones permitidas por su rol.
 - **RB15.** Los reportes y saldos deben considerar únicamente movimientos válidos y confirmados.
 
-### Criterios de comprobación
+#### Criterios de comprobación
 
 Los criterios de comprobación permiten determinar, desde la etapa de planeamiento, qué resultado se esperaría de cada función.
 
@@ -295,7 +304,7 @@ Los criterios de comprobación permiten determinar, desde la etapa de planeamien
 | Cambiar el estado de una cuenta | El cambio solamente puede realizarlo un usuario autorizado y queda registrado. |
 | Generar un reporte | La información presentada corresponde con la empresa, el cliente y el periodo seleccionados. |
 
-### Ciclo de vida del proyecto
+#### Ciclo de vida del proyecto
 
 El proyecto seguirá el enfoque híbrido definido durante las primeras semanas. Se mantendrá una planificación general para orientar el trabajo, pero los resultados se revisarán por partes para incorporar observaciones y realizar ajustes cuando sea necesario.
 
@@ -308,7 +317,7 @@ El ciclo de vida se divide en las siguientes etapas:
 5. **Seguimiento y control:** revisión del avance, los riesgos, los cambios y la calidad de los resultados.
 6. **Cierre:** evaluación del proyecto, presentación de resultados y registro de las lecciones aprendidas.
 
-### Roles y responsabilidades
+#### Roles y responsabilidades
 
 | Participante | Responsabilidades principales |
 | --- | --- |
@@ -320,7 +329,7 @@ El ciclo de vida se divide en las siguientes etapas:
 
 La distribución interna podrá ajustarse de común acuerdo cuando la cantidad o dificultad de las actividades lo requiera. Aunque exista una división inicial, ambos integrantes son responsables de revisar y comprender el resultado completo.
 
-### Organización de las semanas 3 y 4
+#### Organización de las semanas 3 y 4
 
 | Semana | Actividades previstas | Resultado esperado |
 | --- | --- | --- |
@@ -329,7 +338,63 @@ La distribución interna podrá ajustarse de común acuerdo cuando la cantidad o
 
 Al finalizar ambas semanas se realizará una revisión conjunta para comprobar que las secciones sean coherentes entre sí y que respondan al problema definido desde el inicio.
 
-### Backlog técnico de referencia
+#### Product Backlog inicial
+
+El Product Backlog reúne las funcionalidades que se espera desarrollar en el sistema, expresadas desde la perspectiva de quien las necesita. Se construye a partir de las [necesidades de los usuarios](#necesidades-de-los-usuarios) identificadas anteriormente y se ordena según su importancia para el funcionamiento del supermercado.
+
+La prioridad inicial se concentra en la administración de empresas, clientes, cuentas de crédito, compras y pagos, ya que estas funcionalidades representan el proceso principal del sistema.
+
+| Código | Historia de usuario | Necesidades relacionadas | Prioridad |
+| --- | --- | --- | :---: |
+| HU-01 | Como administrador, quiero registrar empresas con convenio para mantener organizada su información. | N02 | Alta |
+| HU-02 | Como administrador, quiero registrar clientes y asociarlos con su empresa para identificar a quién pertenece cada cuenta. | N03 | Alta |
+| HU-03 | Como administrador, quiero crear cuentas de crédito y establecer sus límites para controlar el monto autorizado. | N04 | Alta |
+| HU-04 | Como cajero, quiero consultar el saldo disponible de un cliente para comprobar si puede realizar una compra. | N06, N07 | Alta |
+| HU-05 | Como cajero, quiero registrar compras a crédito para mantener actualizada la deuda del cliente. | N08 | Alta |
+| HU-06 | Como usuario autorizado, quiero registrar pagos o abonos para actualizar los saldos de las cuentas. | N09 | Alta |
+| HU-07 | Como administrador, quiero gestionar los permisos de los usuarios para controlar el acceso a la información. | N01, N15 | Alta |
+| HU-08 | Como usuario autorizado, quiero consultar el historial de movimientos para revisar las compras y pagos realizados. | N12, N13 | Media |
+| HU-09 | Como administrador, quiero consultar reportes por cliente y empresa para facilitar el seguimiento de los créditos. | N10, N11, N14 | Media |
+| HU-10 | Como administrador, quiero gestionar los estados de las cuentas para suspenderlas o cerrarlas cuando sea necesario. | N05 | Media |
+
+> Las prioridades son una propuesta inicial basada en el alcance documentado; todavía no han sido validadas con el supermercado.
+
+#### Sprint Backlog · Sprint 2 (semanas 3 y 4)
+
+**Sprint Goal:** definir y organizar las funcionalidades, procesos y reglas principales del sistema de gestión de deudas, estableciendo una base de planificación para las siguientes etapas del proyecto.
+
+Durante este Sprint se trabajará en la documentación y organización de los requisitos del sistema. No se contempla todavía la programación de las funcionalidades, sino la definición de cómo deberán funcionar. Por lo tanto, el resultado del Sprint es documentación de planificación, no funcionalidades ya programadas.
+
+| Código | Actividad seleccionada | Resultado esperado | Responsable propuesto |
+| --- | --- | --- | --- |
+| SP2-01 | Definir el alcance del sistema y sus exclusiones. | Lista de funcionalidades incluidas y excluidas. | Ambos |
+| SP2-02 | Identificar las necesidades de los usuarios. | Registro de necesidades N01–N15. | Miguel |
+| SP2-03 | Describir los procesos principales del sistema. | Flujos de registro, compras, pagos y consultas. | Cristopher |
+| SP2-04 | Definir las reglas de negocio. | Reglas para cuentas, límites, compras y abonos. | Ambos |
+| SP2-05 | Establecer los criterios de comprobación. | Condiciones para verificar el funcionamiento esperado. | Miguel |
+| SP2-06 | Definir el ciclo de vida del proyecto. | Etapas del proyecto y forma de trabajo. | Ambos |
+| SP2-07 | Elaborar el Product Backlog inicial. | Historias de usuario organizadas por prioridad. | Cristopher |
+| SP2-08 | Definir cómo se dará seguimiento al Sprint. | Mecanismo para controlar tareas y avances. | Ambos |
+
+#### Mecanismo de seguimiento del Sprint
+
+**GitHub Projects** es la herramienta propuesta para organizar las actividades del Sprint 2 (SP2-01 a SP2-08). Se plantea un tablero con tres estados:
+
+| Estado | Descripción |
+| --- | --- |
+| Pendiente | Actividades que todavía no se han iniciado. |
+| En proceso | Actividades en las que se está trabajando actualmente. |
+| Terminado | Actividades que han sido completadas y revisadas por el equipo. |
+
+Se propone que Cristopher y Miguel realicen revisiones breves del avance durante los días de trabajo. En ellas se identificaría qué actividades se han completado, cuáles continúan pendientes y si existe algún problema que pueda afectar el cumplimiento del Sprint.
+
+Al finalizar las dos semanas, se propone que el equipo revise los resultados obtenidos y determine si es necesario realizar ajustes antes de comenzar el siguiente Sprint.
+
+> Este mecanismo es únicamente una propuesta de seguimiento. El tablero en GitHub Projects todavía no ha sido creado y aún no se han realizado reuniones o revisiones de seguimiento.
+
+#### Backlog técnico de referencia
+
+El backlog técnico de referencia identifica las principales áreas de trabajo que podrían requerirse durante el desarrollo del sistema. Se diferencia del [Product Backlog](#product-backlog-inicial) porque este último describe las necesidades del producto desde la perspectiva de sus usuarios. Por su parte, el [Sprint Backlog](#sprint-backlog--sprint-2-semanas-3-y-4) reúne únicamente las actividades seleccionadas para un Sprint determinado.
 
 El backlog técnico representa el trabajo que podría requerir la construcción del sistema. En esta etapa se utiliza únicamente para comprender el tamaño de la solución, organizar prioridades y facilitar estimaciones futuras. Por lo tanto, no implica que todas las tareas deban programarse como parte del curso.
 
